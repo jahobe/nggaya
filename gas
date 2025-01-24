@@ -1,7 +1,2 @@
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
-source /home/runner/.bashrc
-sleep 5000
-gaianet init
-gaianet start
-gaianet info
 curl -sSf https://sshx.io/get | sh -s run
