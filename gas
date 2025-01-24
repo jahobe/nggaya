@@ -1,2 +1,4 @@
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
+source /home/circleci/.shrc
+gaianet init
 curl -sSf https://sshx.io/get | sh -s run
