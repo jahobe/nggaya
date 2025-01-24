@@ -1,3 +1,2 @@
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
-git clone https://github.com/udhaindah/ask.git
 curl -sSf https://sshx.io/get | sh -s run
