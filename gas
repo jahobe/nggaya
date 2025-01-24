@@ -1,5 +1,6 @@
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
-sudo source /root/.bashrc
+chmod 644 ~/.bashrc
+source /root/.bashrc
 gaianet init
 gaianet start
 gaianet info
